@@ -3,6 +3,7 @@ body{
     font-family:'Roboto', sans-serif;
 }
 
+/* Header Section */
 .header-top{
     display: flex;
     justify-content: space-between;
@@ -70,6 +71,8 @@ button{
     font-weight: 700;
 }
 
+/* Top section of body */
+
 .body-top{
     padding: 2em;
 }
@@ -113,6 +116,8 @@ button{
     border-radius: 10px;
 }
 
+/* Middle section of body */
+
 .body-mid{
     background-color: #E5E7EB;
     display: flex;
@@ -137,3 +142,6 @@ button{
 .quote-author{
     font-weight: 900;
 }
+
+/* Bottom section of body */
+
