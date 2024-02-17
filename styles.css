@@ -8,7 +8,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 3em;
-    color: white;
+    color: #F9FAF8;
     background-color: #1F2937;
 }
 
@@ -27,14 +27,14 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
-    color: white;
-    padding: 30px 10px;
+    color: #F9FAF8;
+    padding: 40px 10px;
     gap: 10%;
 }
 
 .header-h1{
     margin-bottom: 5px;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bolder;
 }
 
@@ -68,4 +68,72 @@ button{
     color: white;
     border-radius: 6px;
     font-weight: 700;
+}
+
+.body-top{
+    padding: 2em;
+}
+
+.body-header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 15%;
+}
+
+.item-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.item-square{
+    height: 100px;
+    width: 100px;
+    border: solid blue 3px;
+    border-radius: 10px;
+}
+
+.body-mid{
+    background-color: #E5E7EB;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.mid-container{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 5em 2em;
+}
+
+.quote{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-author{
+    font-weight: 900;
 }
