@@ -175,3 +175,12 @@ button{
     border: solid white 1px;
     align-self: center;
 }
+
+.footer{
+    padding: 2em;
+    margin-bottom: auto;
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 10px;
+}
