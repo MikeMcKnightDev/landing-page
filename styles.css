@@ -145,3 +145,33 @@ button{
 
 /* Bottom section of body */
 
+.body-bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot-container{
+    display: flex;
+    gap: 100px;
+    margin: 3em;
+    padding: .5em 3em;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.bot-header{
+    font-weight: 900;
+}
+
+.bot-text{
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.bot-container button {
+    height: 3em;
+    border: solid white 1px;
+    align-self: center;
+}
